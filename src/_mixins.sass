@@ -1,0 +1,11 @@
+-- group related css settings
+@mixin flex($x, $y)
+    display: flex
+    justify-content: $x
+    align-items: $y
+    
+-- use with vendor prefixes
+@mixin transform($property)
+    -webkit-transform: $property
+    -ms-transform: $property
+    transform: $property

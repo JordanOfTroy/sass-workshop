@@ -1,0 +1,14 @@
+.home--component
+    color: $dark
+    .box--container
+        @include flex(flex-start, center)
+        .box
+            height: 20px
+            width: 20px
+            margin: 6px
+            background: $light-green
+            border: 2px solid $dark
+            &:nth-child(3)
+                @include transform( scale(2) skewY(26deg))
+                border-width: 1px
+
