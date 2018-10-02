@@ -62,5 +62,3 @@ Now when you run `npm start`, it will watch for changes in your SASS files and a
 These include: lighten, darken, saturate, invert, complement, grayscale, and mix.
 
 Examples: https://codepen.io/nate_08/pen/MBqaVa
-
-## Inheritance, extends, button other colors 
